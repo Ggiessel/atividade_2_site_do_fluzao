@@ -1,7 +1,7 @@
 body {
     margin: 0px;
     padding: 0px;
-    background-color: rgb(111, 163, 246);
+    background-color: rgb(0, 97, 60);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
@@ -18,7 +18,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgb(7, 49, 98);
+    background-color: rgb(135, 10, 40);
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -28,7 +28,7 @@ body {
     text-align: center;
     flex-wrap: wrap;
     justify-content: space-around;
-    background-color: rgb(94, 138, 209);
+    background-color: rgb(135, 10, 40);
     padding: 6px;
     margin: 40px;
     border-radius: 40px;
@@ -38,14 +38,26 @@ body {
 .noticia {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(255, 255, 255);
-    background-color: rgb(72, 155, 243);
-    border: 4px solid rgb(255, 255, 255);
+    background-color: rgb(135, 10, 40);
+    border: 3px solid rgb(255, 255, 255);
 }
 
 .img_noticia {
     width: 300px;
     height: 200px;
 }
+.noticia2{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: rgb(135, 10, 40);
+    border: 3px solid rgb(255, 255, 255);
+} 
+.nense{
+    display: flex;
+    justify-content: center;
+ 
+}
+
 
 footer {
     background-color: rgb(7, 49, 98);
@@ -58,19 +70,23 @@ footer {
 .barra-sticky {
     position: sticky;
     top: 0px;
-    background-color: rgb(255, 221, 0);
+    background-color: rgb(255, 255, 255);
     color: rgb(7, 49, 98);
     padding: 12px;
     font-weight: bold;
     text-align: center;
-    border-bottom: 4px solid rgb(7, 49, 98);
+    border-bottom: 4px solid rgb(13, 167, 8);
 }
 
 .posicao {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
     margin: 40px;
-    padding: 20px;
+    padding: 40px;
     border-radius: 40px;
-    background-color: rgb(72, 155, 243);
+    background-color: rgb(135, 10, 40);
     color: white;
 }
 
